@@ -22,6 +22,12 @@ If starting with test setup from scratch, then:
 yarn add -D jest @testing-library/dom @testing-library/svelte @testing-library/jest-dom
 ```
 
+More test setup from scratch:
+
+```bash
+yarn add -D svelte-jester @babel/preset-env babel-jest 
+```
+
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
