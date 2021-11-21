@@ -1,36 +1,37 @@
-*Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.*
-
-*Looking for a shareable component template instead? You can [use SvelteKit for that as well](https://kit.svelte.dev/docs#packaging) or the older [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
+# Get started
 
 Install the dependencies...
 
 ```bash
-cd svelte-app
-npm install
+git clone git@github.com:missKatiaPunter/tdd-thingie-try.git
+cd tdd-thingie-try
+npm i
+```
+
+or
+
+```bash
+git clone git@github.com:missKatiaPunter/tdd-thingie-try.git
+cd tdd-thingie-try
+yarn
+```
+
+If starting with test setup from scratch, then:
+
+```bash
+yarn add -D jest @testing-library/dom @testing-library/svelte @testing-library/jest-dom
 ```
 
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev
+```
+
+or
+
+```bash
+yarn run dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
